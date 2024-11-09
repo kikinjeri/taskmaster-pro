@@ -1,3 +1,9 @@
 ul.list-group {
   min-height: 130px;
 }
+
+@media (forced-colors: active) {
+  /* Your styles for high contrast mode */
+  background-color: ButtonFace;
+  color: ButtonText;
+}
